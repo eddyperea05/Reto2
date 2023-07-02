@@ -19,21 +19,19 @@ public class AgregarProductoStepDefinitions {
 
 
     @Dado("que se abre el url de pagina.")
-    public void queSeAbreElUrlDePagina() {
+    public void abriNavegador() {
         homeStep.abrirNavegador();
     }
 
-    @Cuando("ingresa el nombre del producto y selecciona uno aleatorio")
-    public void ingresaElNombreDelProductoYSeleccionaUnoAleatorio() {
+    @Cuando("ingresa el nombre del producto, selecciona uno aleatorio y agregarlo al carrito.")
+    public void gestionarSeleccionProducto() {
         homeStep.escribirProducto();
         productListStep.seleccionarProducto();
         detalleProductoStep.agregarProducto();
-
     }
 
-    @Entonces("validar que se haya agregado al carrito")
-    public void validarQueSeHayaAgregadoAlCarrito() {
-
+    @Entonces("Validar que el producto se haya agregado al carrito.")
+    public void validarProductoAgregado() {
         detalleProductoStep.validarMensaje();
     }
 

@@ -1,8 +1,7 @@
 package com.alkomprar.steps;
 
 import com.alkomprar.pageObject.HomePage;
-import com.alkomprar.utils.Excel;
-import com.alkomprar.utils.Utils;
+import com.alkomprar.utils.*;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
 import java.io.IOException;

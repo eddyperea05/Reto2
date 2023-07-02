@@ -4,10 +4,8 @@ import com.alkomprar.pageObject.EmailValidationPage;
 import com.alkomprar.utils.*;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
-
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Map;
+import java.util.*;
 
 public class EmailValidationStep {
 

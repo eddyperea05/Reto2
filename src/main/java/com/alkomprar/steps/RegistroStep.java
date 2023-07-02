@@ -1,16 +1,11 @@
 package com.alkomprar.steps;
 
 import com.alkomprar.pageObject.RegistroPage;
-import com.alkomprar.utils.Excel;
-import com.alkomprar.utils.Utils;
-import net.serenitybdd.core.pages.PageObject;
+import com.alkomprar.utils.*;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
-import org.openqa.selenium.By;
-
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Map;
+import java.util.*;
 
 public class RegistroStep {
 
