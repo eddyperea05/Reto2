@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 
 public class EmailValidationPage extends PageObject {
 
-    By txtEmail = By.id("js-login-email");
-    By btnContinuar = By.id("js-login-continue");
+    private By txtEmail = By.id("js-login-email");
+    private By btnContinuar = By.id("js-login-continue");
 
     public By getTxtEmail() {
         return txtEmail;

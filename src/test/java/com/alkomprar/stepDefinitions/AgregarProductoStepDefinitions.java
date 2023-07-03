@@ -1,6 +1,5 @@
 package com.alkomprar.stepDefinitions;
 
-import com.alkomprar.steps.DetalleProductoStep;
 import com.alkomprar.steps.HomeStep;
 import com.alkomprar.steps.ListaProductosStep;
 import io.cucumber.java.es.*;
@@ -14,9 +13,6 @@ public class AgregarProductoStepDefinitions {
     @Steps
     ListaProductosStep productListStep;
 
-    @Steps
-    DetalleProductoStep detalleProductoStep;
-
 
     @Dado("que se abre el url de pagina.")
     public void abriNavegador() {
@@ -26,13 +22,12 @@ public class AgregarProductoStepDefinitions {
     @Cuando("ingresa el nombre del producto, selecciona uno aleatorio y agregarlo al carrito.")
     public void gestionarSeleccionProducto() {
         homeStep.escribirProducto();
-        productListStep.seleccionarProducto();
-        detalleProductoStep.agregarProducto();
+        productListStep.agregarProducto();
     }
 
     @Entonces("Validar que el producto se haya agregado al carrito.")
     public void validarProductoAgregado() {
-        detalleProductoStep.validarMensaje();
+        productListStep.validarMensaje();
     }
 
 }

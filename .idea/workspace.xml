@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0d21f8bc-2b34-4889-bf44-61e64ee9b2c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/pageObject/DetalleProductoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/pageObject/DetalleProductoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/pageObject/ListaProductosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/pageObject/ListaProductosPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/EmailValidationStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/EmailValidationStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/HomeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/HomeStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/RegistroStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/RegistroStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/DetalleProductoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/DetalleProductoStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/ListaProductosStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/ListaProductosStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/alkomprar/stepDefinitions/AgregarProductoStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alkomprar/stepDefinitions/AgregarProductoStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AgregarProducto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AgregarProducto.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data/Datos.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data/Datos.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,11 +5,11 @@ import org.openqa.selenium.By;
 
 public class RegistroPage extends PageObject {
 
-    By txtNombre = By.id("register.firstName");
-    By txtApellido = By.id("register.lastName");
-    By txtNumero = By.id("register.mobileNumber");
-    By chkAutorizar = By.xpath("//*[@id='alkostoRegisterForm']/div/label[@for='registerChkTermsConditions']");
-    By btnRegistrar = By.xpath("//*[@id='alkostoRegisterForm']/div/button");
+    private By txtNombre = By.id("register.firstName");
+    private By txtApellido = By.id("register.lastName");
+    private By txtNumero = By.id("register.mobileNumber");
+    private By chkAutorizar = By.xpath("//*[@id='alkostoRegisterForm']/div/label[@for='registerChkTermsConditions']");
+    private By btnRegistrar = By.xpath("//*[@id='alkostoRegisterForm']/div/button");
 
     public By getTxtNombre() {
         return txtNombre;
